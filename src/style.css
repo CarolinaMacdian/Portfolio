@@ -29,3 +29,16 @@ body {
 .auto-type {
   color: #f3729a;
 }
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
