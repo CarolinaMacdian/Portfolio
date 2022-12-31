@@ -19,9 +19,6 @@
   h3 {
     font-size: 26px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
 
   .about-section {
     text-align: center;
@@ -36,6 +33,10 @@
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+
+  img {
+    margin-top: 100px;
   }
 }
 
@@ -80,16 +81,6 @@ p {
   font-weight: 900;
 }
 
-.centered {
-  top: 50%;
-  left: 50%;
-  margin: 100px;
-  font-size: 20px;
-  font-weight: 900;
-  padding: 0px;
-  text-align: center;
-}
-
 .auto-type {
   color: #f3729a;
 }
@@ -101,6 +92,13 @@ html {
 
 nav {
   padding: 20px 0;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 
 nav ul {
@@ -127,17 +125,36 @@ nav li.active a {
 
 .hero {
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-.projects {
-  margin-top: 40px;
-  padding-top: 50px;
-}
 .about-section {
   padding: 160px 20px;
 }
 .about-section h1 {
-  font-size: 65px;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emphasis {
+  font-size: 300px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  font-family: var(--heading-font-family);
 }
 
 .btn-branding {
@@ -157,7 +174,7 @@ nav li.active a {
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
+  border-radius: 10px;
   font-size: 18px;
   text-decoration: none;
   line-height: 27px;
@@ -170,15 +187,27 @@ nav li.active a {
 }
 
 .about-section-content {
-  margin: 30px;
+  font-family: (--heading-font-family);
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 footer {
   margin: 60px 0;
+}
+
+.footer-background {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  padding: 30px;
+  padding-top: 60px;
 }
 
 footer .contact-box {
