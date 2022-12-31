@@ -99,6 +99,36 @@ html {
   height: 100%;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.hero {
+  text-align: center;
+}
+
 .projects {
   margin-top: 40px;
   padding-top: 50px;
@@ -111,72 +141,8 @@ html {
 }
 
 .btn-branding {
-  background: #f3729a;
-  border-radius: 4px;
-  color: #fff;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.about-section-content {
-  margin: 30px;
-}
-
-img {
-  border-radius: 10px;
-}
-
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-}
-
-.content-container {
-  padding: 60px 20px;
-}
-
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.content h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-
-  font-family: var(--default-font-family);
-}
-
-.content p {
-  font-size: 14px;
-}
-
-.content {
-  margin: 30px;
-}
-
-.btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 6px;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -203,38 +169,12 @@ img {
   color: white;
 }
 
-.project-desciption {
-  padding: 120px 60px;
+.about-section-content {
+  margin: 30px;
 }
 
-.logo {
-  max-height: 40px;
-}
-
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+img {
+  border-radius: 10px;
 }
 
 footer {
@@ -274,4 +214,37 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--secondary-color);
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
 }
