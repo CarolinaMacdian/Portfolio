@@ -2,6 +2,7 @@
 :root {
   --branding-color: #f3729a;
   --secondary-color: #000;
+  --top-font-family: "Lobster", sans-serif;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -75,6 +76,7 @@ p {
 .navbar-brand {
   padding: 10px;
   font-weight: 900;
+  font-family: var(--top-font-family);
 }
 
 .auto-type {
