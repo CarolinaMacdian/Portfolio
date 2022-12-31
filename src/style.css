@@ -34,10 +34,6 @@
     padding: 0;
     text-align: center;
   }
-
-  img {
-    margin-top: 100px;
-  }
 }
 
 body {
@@ -179,6 +175,7 @@ nav li.active a {
   text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
+  margin-bottom: 60px;
 }
 
 .btn-branding-outline:hover {
@@ -253,6 +250,7 @@ footer .social-links a:hover {
 .last-thing a {
   text-decoration: none;
   color: #f3729a;
+  font-weight: 600;
 }
 
 .content-container {
