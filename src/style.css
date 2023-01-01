@@ -15,15 +15,11 @@
 
   h2 {
     font-size: 44px;
+    text-align: center;
   }
 
   h3 {
     font-size: 26px;
-  }
-
-  .about-section {
-    text-align: center;
-    padding: 0;
   }
 
   .content {
@@ -31,8 +27,12 @@
     padding: 0;
   }
 
-  .project-desciption {
+  .project-description {
     padding: 0;
+    text-align: center;
+  }
+
+  .btn-center {
     text-align: center;
   }
 }
@@ -123,15 +123,16 @@ nav li.active a {
 
 .hero {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 450px;
+  margin-bottom: 450px;
   font-size: 20px;
   font-weight: 900;
 }
 
 .about-section {
-  padding: 160px 20px;
+  margin: auto;
 }
+
 .about-section h1 {
   font-size: 50px;
   font-family: "Lobster", cursive;
