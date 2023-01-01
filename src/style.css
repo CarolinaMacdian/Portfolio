@@ -195,8 +195,22 @@ img {
 
 .contact-link {
   text-decoration: none;
-  color: #f3729a;
+  color: #000;
   font-weight: 600;
+}
+
+.contact-link:hover {
+  color: #f3729a;
+}
+
+.work-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.work-link:hover {
+  color: #f3729a;
 }
 
 footer {
@@ -258,6 +272,10 @@ footer .social-links a:hover {
 .last-thing a {
   text-decoration: none;
   color: #f3729a;
+  font-weight: 400;
+}
+
+.last-thing a:hover {
   font-weight: 600;
 }
 
