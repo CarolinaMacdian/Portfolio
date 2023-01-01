@@ -193,6 +193,12 @@ img {
   border-radius: 20px;
 }
 
+.contact-link {
+  text-decoration: none;
+  color: #f3729a;
+  font-weight: 600;
+}
+
 footer {
   margin: 60px 0;
 }
