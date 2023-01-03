@@ -35,6 +35,63 @@
   .btn-center {
     text-align: center;
   }
+
+  .img-fluid {
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .btn-center {
+    text-align: center;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    display: none;
+  }
 }
 
 body {
@@ -54,25 +111,6 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 64px;
-}
-
-h3 {
-  font-size: 48px;
-}
-
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-}
-
 .navbar-brand {
   padding: 10px;
   font-weight: 900;
@@ -81,11 +119,6 @@ p {
 
 .auto-type {
   color: #f3729a;
-}
-
-body,
-html {
-  height: 100%;
 }
 
 nav {
@@ -108,7 +141,6 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
 }
 
 nav a {
@@ -129,12 +161,9 @@ nav li.active a {
   font-weight: 900;
 }
 
-.about-section {
-  margin: auto;
-}
-
-.about-section h1 {
-  font-size: 50px;
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
   font-family: "Lobster", cursive;
   background: radial-gradient(
     circle at 7.5% 24%,
@@ -147,13 +176,23 @@ nav li.active a {
   -webkit-text-fill-color: transparent;
 }
 
-.emphasis {
-  font-size: 300px;
+.content h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
 }
 
-.about-section h2 {
-  font-size: 30px;
-  font-family: var(--heading-font-family);
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content-container {
+  padding-bottom: 50px;
 }
 
 .btn-branding {
@@ -186,12 +225,10 @@ nav li.active a {
   color: white;
 }
 
-.about-section-content {
-  font-family: (--heading-font-family);
-}
-
 img {
   border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-link {
@@ -214,10 +251,6 @@ img {
   color: #f3729a;
 }
 
-footer {
-  margin: 60px 0;
-}
-
 .footer-background {
   background: radial-gradient(
     circle at 7.5% 24%,
@@ -226,38 +259,21 @@ footer {
     rgb(190, 228, 210) 62.3%,
     rgb(215, 248, 247) 93.8%
   );
-  padding: 30px;
-  padding-top: 60px;
 }
 
-footer .contact-box {
-  background: var(--branding-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
+footer .social-links {
+  padding: 20px;
 }
 
 footer .social-links a {
-  margin: 0 20px;
   color: var(--secondary-color);
   background: var(--branding-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
+  padding: 10px 14px;
+  margin: 10px;
 }
 
 footer .social-links a:hover {
@@ -268,6 +284,7 @@ footer .social-links a:hover {
 .last-thing {
   font-size: 10px;
   font-weight: 200;
+  margin: auto 0;
 }
 
 .last-thing a {
@@ -278,36 +295,4 @@ footer .social-links a:hover {
 
 .last-thing a:hover {
   font-weight: 600;
-}
-
-.content-container {
-  padding: 60px 20px;
-}
-
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.content h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--default-font-family);
-}
-
-.content p {
-  font-size: 14px;
-}
-
-.content {
-  margin: 30px;
-}
-
-.project-desciption {
-  padding: 120px 60px;
 }
